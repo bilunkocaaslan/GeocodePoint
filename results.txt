@@ -1,0 +1,20 @@
+BASKET_NUM1
+ item1 [38.38507732915985, 27.13472089093362], Yeşillik Caddesi, Aşık Veysel Mahallesi, Karabağlar, Aegean Region, 35110, Turkey, https://www.google.com/maps/search/?api=1&query=38.38507732915985,27.13472089093362 
+BASKET_NUM2
+ item1 [38.336918593574694, 27.20849918346318], Zafer Mahallesi, Buca, Aegean Region, 35395, Turkey, https://www.google.com/maps/search/?api=1&query=38.336918593574694,27.20849918346318 
+BASKET_NUM3
+ item1 [38.335323125913575, 27.144234453049393], Dokuz Eylül Mahallesi, Gaziemir, Aegean Region, 35410, Turkey, https://www.google.com/maps/search/?api=1&query=38.335323125913575,27.144234453049393 
+BASKET_NUM4
+ item1 [38.35244322053555, 27.152144790635894], İzmir Çevre Yolu, Mustafa Kemal Mahallesi, Buca, Aegean Region, 35380, Turkey, https://www.google.com/maps/search/?api=1&query=38.35244322053555,27.152144790635894 
+BASKET_NUM5
+ item1 [38.26898274283573, 27.125051503840936], Görece, Görece Cumhuriyet Mahallesi, Menderes, Aegean Region, 35473, Turkey, https://www.google.com/maps/search/?api=1&query=38.26898274283573,27.125051503840936 
+BASKET_NUM6
+ item1 [38.32881286099816, 27.165827889638322], Dokuz Eylül Mahallesi, Gaziemir, Aegean Region, 35410, Turkey, https://www.google.com/maps/search/?api=1&query=38.32881286099816,27.165827889638322 
+BASKET_NUM7
+ item1 [38.323357287621256, 27.176060792082733], Dokuz Eylül Mahallesi, Gaziemir, Aegean Region, 35410, Turkey, https://www.google.com/maps/search/?api=1&query=38.323357287621256,27.176060792082733 
+BASKET_NUM8
+ item1 [38.31120028524272, 27.19876599481655], Hürriyet Mahallesi, Gaziemir, Aegean Region, 35410, Turkey, https://www.google.com/maps/search/?api=1&query=38.31120028524272,27.19876599481655 
+BASKET_NUM9
+ item1 [38.330240671149824, 27.092666685769636], Akçakaya, Uzundere-Gaziemir Yolu, Evka-7, Zafer Mahallesi, Gaziemir, Aegean Region, 35410, Turkey, https://www.google.com/maps/search/?api=1&query=38.330240671149824,27.092666685769636 
+BASKET_NUM10
+ item1 [38.3101710165532, 27.193757318347306], Zafer Mahallesi, Buca, Aegean Region, 35395, Turkey, https://www.google.com/maps/search/?api=1&query=38.3101710165532,27.193757318347306 
