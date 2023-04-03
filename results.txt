@@ -1,20 +1,36 @@
 BASKET_NUM1
- item1 [38.38507732915985, 27.13472089093362], Yeşillik Caddesi, Aşık Veysel Mahallesi, Karabağlar, Aegean Region, 35110, Turkey, https://www.google.com/maps/search/?api=1&query=38.38507732915985,27.13472089093362 
+ item1 [38.32721418341879, 27.07339837666788], Uzundere Mahallesi, Tırazlı Mahallesi, Karabağlar, Izmir, Aegean Region, 35120, Turkey, https://www.google.com/maps/search/?api=1&query=38.32721418341879,27.07339837666788 
+
+ item2 [38.328579018646984, 27.081070813373213], Uzundere Mahallesi, Karabağlar, Aegean Region, Turkey, https://www.google.com/maps/search/?api=1&query=38.328579018646984,27.081070813373213 
+
+ item3 [38.33502888172497, 27.077479250374], Uzundere Mahallesi, Karabağlar, Aegean Region, 35120, Turkey, https://www.google.com/maps/search/?api=1&query=38.33502888172497,27.077479250374 
 BASKET_NUM2
- item1 [38.336918593574694, 27.20849918346318], Zafer Mahallesi, Buca, Aegean Region, 35395, Turkey, https://www.google.com/maps/search/?api=1&query=38.336918593574694,27.20849918346318 
+ item1 [38.37019577558277, 27.136481513614694], Aydın Mahallesi, Karabağlar, Aegean Region, 35000, Turkey, https://www.google.com/maps/search/?api=1&query=38.37019577558277,27.136481513614694 
 BASKET_NUM3
- item1 [38.335323125913575, 27.144234453049393], Dokuz Eylül Mahallesi, Gaziemir, Aegean Region, 35410, Turkey, https://www.google.com/maps/search/?api=1&query=38.335323125913575,27.144234453049393 
+ item1 [38.313661186305715, 27.086323088489078], Tırazlı Mahallesi, Karabağlar, Aegean Region, 35411, Turkey, https://www.google.com/maps/search/?api=1&query=38.313661186305715,27.086323088489078 
 BASKET_NUM4
- item1 [38.35244322053555, 27.152144790635894], İzmir Çevre Yolu, Mustafa Kemal Mahallesi, Buca, Aegean Region, 35380, Turkey, https://www.google.com/maps/search/?api=1&query=38.35244322053555,27.152144790635894 
+ item1 [38.28746209527218, 27.14766501903644], İç Hatlar Geliş, Görece Cumhuriyet Mahallesi, Menderes, Aegean Region, 35473, Turkey, https://www.google.com/maps/search/?api=1&query=38.28746209527218,27.14766501903644 
 BASKET_NUM5
- item1 [38.26898274283573, 27.125051503840936], Görece, Görece Cumhuriyet Mahallesi, Menderes, Aegean Region, 35473, Turkey, https://www.google.com/maps/search/?api=1&query=38.26898274283573,27.125051503840936 
+ item1 [38.3429820225671, 27.17232195178183], Dokuz Eylül Mahallesi, Gaziemir, Aegean Region, 35410, Turkey, https://www.google.com/maps/search/?api=1&query=38.3429820225671,27.17232195178183 
 BASKET_NUM6
- item1 [38.32881286099816, 27.165827889638322], Dokuz Eylül Mahallesi, Gaziemir, Aegean Region, 35410, Turkey, https://www.google.com/maps/search/?api=1&query=38.32881286099816,27.165827889638322 
+ item1 [38.3429820225671, 27.17232195178183], Dokuz Eylül Mahallesi, Gaziemir, Aegean Region, 35410, Turkey, https://www.google.com/maps/search/?api=1&query=38.3429820225671,27.17232195178183 
 BASKET_NUM7
- item1 [38.323357287621256, 27.176060792082733], Dokuz Eylül Mahallesi, Gaziemir, Aegean Region, 35410, Turkey, https://www.google.com/maps/search/?api=1&query=38.323357287621256,27.176060792082733 
+ item1 [38.3429820225671, 27.17232195178183], Dokuz Eylül Mahallesi, Gaziemir, Aegean Region, 35410, Turkey, https://www.google.com/maps/search/?api=1&query=38.3429820225671,27.17232195178183 
 BASKET_NUM8
- item1 [38.31120028524272, 27.19876599481655], Hürriyet Mahallesi, Gaziemir, Aegean Region, 35410, Turkey, https://www.google.com/maps/search/?api=1&query=38.31120028524272,27.19876599481655 
+ item1 [38.34913201665815, 27.078789080920256], Uzundere Mahallesi, Tırazlı Mahallesi, Karabağlar, Izmir, Aegean Region, 35120, Turkey, https://www.google.com/maps/search/?api=1&query=38.34913201665815,27.078789080920256 
 BASKET_NUM9
- item1 [38.330240671149824, 27.092666685769636], Akçakaya, Uzundere-Gaziemir Yolu, Evka-7, Zafer Mahallesi, Gaziemir, Aegean Region, 35410, Turkey, https://www.google.com/maps/search/?api=1&query=38.330240671149824,27.092666685769636 
+ item1 [38.34913201665815, 27.078789080920256], Uzundere Mahallesi, Tırazlı Mahallesi, Karabağlar, Izmir, Aegean Region, 35120, Turkey, https://www.google.com/maps/search/?api=1&query=38.34913201665815,27.078789080920256 
 BASKET_NUM10
- item1 [38.3101710165532, 27.193757318347306], Zafer Mahallesi, Buca, Aegean Region, 35395, Turkey, https://www.google.com/maps/search/?api=1&query=38.3101710165532,27.193757318347306 
+ item1 [38.34913201665815, 27.078789080920256], Uzundere Mahallesi, Tırazlı Mahallesi, Karabağlar, Izmir, Aegean Region, 35120, Turkey, https://www.google.com/maps/search/?api=1&query=38.34913201665815,27.078789080920256 
+BASKET_NUM11
+ item1 [38.37160380443001, 27.176557512940413], 242/24. Sokak, Yıldız Mahallesi, Buca, Aegean Region, 35390, Turkey, https://www.google.com/maps/search/?api=1&query=38.37160380443001,27.176557512940413 
+BASKET_NUM12
+ item1 [38.37160380443001, 27.176557512940413], 242/24. Sokak, Yıldız Mahallesi, Buca, Aegean Region, 35390, Turkey, https://www.google.com/maps/search/?api=1&query=38.37160380443001,27.176557512940413 
+BASKET_NUM13
+ item1 [38.37160380443001, 27.176557512940413], 242/24. Sokak, Yıldız Mahallesi, Buca, Aegean Region, 35390, Turkey, https://www.google.com/maps/search/?api=1&query=38.37160380443001,27.176557512940413 
+BASKET_NUM14
+ item1 [38.35101351066063, 27.164664348506125], Zafer Mahallesi, Buca, Aegean Region, 35395, Turkey, https://www.google.com/maps/search/?api=1&query=38.35101351066063,27.164664348506125 
+BASKET_NUM15
+ item1 [38.35101351066063, 27.164664348506125], Zafer Mahallesi, Buca, Aegean Region, 35395, Turkey, https://www.google.com/maps/search/?api=1&query=38.35101351066063,27.164664348506125 
+BASKET_NUM16
+ item1 [38.35101351066063, 27.164664348506125], Zafer Mahallesi, Buca, Aegean Region, 35395, Turkey, https://www.google.com/maps/search/?api=1&query=38.35101351066063,27.164664348506125 
