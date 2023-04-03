@@ -69,6 +69,10 @@ class GeocoderController < ApplicationController
         end
         puts "File created successfully."
         @json_result= results.to_json
+        respond_to do |format|
+            format.html # Render the HTML view
+            format.json { render json: @json_result } # Render the JSON data
+          end
     end
 
 end
