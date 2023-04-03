@@ -8,11 +8,12 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js?v=1.0"></script>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css?v=1.0">
   <%= javascript_include_tag "https://code.jquery.com/jquery-3.6.0.min.js" %>
-  <%= javascript_include_tag 'https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.js' %>
-  <%= stylesheet_link_tag 'https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.css' %>
   <%= javascript_include_tag 'https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.js' %>
-  <%= stylesheet_link_tag 'https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.css' %>
+  <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.css"></noscript>
   <meta name="description" content="">
   <meta name="author" content="">
   </head>
@@ -63,15 +64,21 @@
 <script>
   var map = null ;
   var marker = null ; 
-  
+  if(map == null){
+    visualition();
+    createMarker()
+  }
+
+
 // for regenerating points
   function regenerate() {
     $.ajax({
     url: '/regenerate',
     type: 'GET',
-    success: function() {
+    dataType: 'json',
+    success: function(data) {
       console.log("success")
-      location.reload()
+      refreshMap(data);
     },
     error: function(e) {
       console.log(e,"error")
@@ -88,13 +95,21 @@
           '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
         maxZoom: 18
       }).addTo(map);
+    }
+
+    function createMarker(){
       <% JSON.parse(@json_result).each do |point| %>
         marker = L.marker([<%=point["lat"]%>, <%=point["lng"]%>]).addTo(map).bindPopup("BASKET_NUM#<%=point["basket_num"]%>"); 
       <% end %>
     }
 
-    if(map == null) {
-    visualition();
+    function refreshMap(result){
+      map.off();
+      map.remove();
+      visualition();
+      result.forEach(function(element) {
+        marker = L.marker([element["lat"], element["lng"]]).addTo(map).bindPopup("BASKET_NUM#"+element["basket_num"]);
+      });
     }
 
 </script>
