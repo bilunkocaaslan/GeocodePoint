@@ -4,8 +4,8 @@ require 'kmeans-clusterer'
 class GeocoderController < ApplicationController
 
     def index 
-        @no_of_basket = 1
-        @no_of_point = 10
+        @no_of_basket = 5
+        @no_of_point = 15
         @points = []
         @baskets = Array.new(@no_of_basket) { [] }
         @center_loc = Geocoder.search("Gaziemir, Izmir")
