@@ -71,7 +71,7 @@
   var map = null ;
   var marker = null ; 
   if(map == null){
-    visualition();
+    visualization();
     createMarker()
   }
 
@@ -92,7 +92,7 @@
 
   }
 
-  function visualition() {
+  function visualization() {
     // for map view
       map = L.map('map').setView([<%=@center_lat%>, <%=@center_lng%>], 12);
       L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -111,7 +111,7 @@
     function refreshMap(result){
       map.off();
       map.remove();
-      visualition();
+      visualization();
       result.forEach(function(element) {
         marker = L.marker([element["lat"], element["lng"]]).addTo(map).bindPopup("BASKET_NUM#"+element["basket_num"]);
       });
